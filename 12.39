@@ -1,10 +1,11 @@
 from random import *
-a=[[randint(20,30)for j in range(10)]for i in range(10)]
-for i in range(10):
-    for j in range(10):
+a=[[randint(0,1)for j in range(36)]for i in range(25)]
+for i in range(25):
+    for j in range(36):
         print(a[i][j],end=' ')
     print()
-for i in range(0,10):
-    a.append(a[i][4])
-print(a)
-print(sum(a))
+b=0
+for i in range(36):
+    b=b+a[11][i]
+print(b)
+
