@@ -1,7 +1,7 @@
 from random import*
 a=[]
 sp=[[randint(-100,100)for j in range(10)]for i in range(10)]
-strok=int(input('Введите номер стобца'))
+strok=int(input('Номер стобца'))
 for i in range(10):
     for j in range(10):
         print(sp[i][j],end=' ')
